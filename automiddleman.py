@@ -226,7 +226,7 @@ async def handle_create_ticket(interaction):
         "Our bots and staff will never contact you via DM."
     )
     await thread.send(
-        "For any questions, contact @dacaht or join our backup telegram: https://t.me/tomatobackup"
+        "For any questions, contact via LinkdIn"
     )
     # Provide Accept and Cancel buttons
     confirm_view = View()
@@ -594,13 +594,13 @@ async def ticket(ctx):
         name="**What is an Escrow?**",
         value=( 
             "An escrow is a financial arrangement where a third party holds and regulates the payment of funds required for two parties involved in a given transaction. "
-            "Tomato aims to remove the human aspect of an escrow to avoid scams and human mistakes."
+            "AutoMiddleman aims to remove the human aspect of an escrow to avoid scams and human mistakes."
         ),
         inline=False
     )
     
     embed.add_field(
-        name="**How do I use Tomato?**",
+        name="**How do I use AutoMiddleman?**",
         value=( 
             "1. Click the button below to start.\n"
             "2. Enter the user ID of the user you are trading with.\n"
@@ -623,9 +623,9 @@ async def ticket(ctx):
     )
     
     embed.add_field(
-        name="**Tomato Fees**",
+        name="**AutoMiddleman Fees**",
         value=( 
-            "Tomato is free of charge for any deals under $1. For deals above $1, there is a base fee of $0.10 + 1% of the transaction amount, excluding transaction fees. "
+            "AutoMiddleman is free of charge for any deals under $1. For deals above $1, there is a base fee of $0.10 + 1% of the transaction amount, excluding transaction fees. "
             "Transaction fees are beyond our control but rarely total up to any significant amount (usually less than $0.02)."
         ),
         inline=False
@@ -638,11 +638,11 @@ async def ticket(ctx):
     embed2 = discord.Embed(
         title="Important Warning",
         description=( 
-            "If anyone ever asks you to deal outside of Tomato, we politely advise you to immediately report them to us. "
-            "We do not condone any deals outside of Tomato nor are we responsible for any losses you may incur from dealing outside of Tomato. "
+            "If anyone ever asks you to deal outside of AutoMiddleman, we politely advise you to immediately report them to us. "
+            "We do not condone any deals outside of AutoMiddleman nor are we responsible for any losses you may incur from dealing outside of Tomato. "
             "We cannot assure the safety of your funds if you do.\n\n"
-            "Tomato has been designed to be a safe and secure platform for all users. We always advise using the escrow bot for your safety and security. "
-            "We do not take responsibility for any losses that occur due to dealing outside of Tomato with a user within our server.\n\n"
+            "AutoMiddleman has been designed to be a safe and secure platform for all users. We always advise using the escrow bot for your safety and security. "
+            "We do not take responsibility for any losses that occur due to dealing outside of AutoMiddleman with a user within our server.\n\n"
             "Regardless of the user having any form of \"Trusted\", \"Admin\", or \"Staff\" roles, we always advise against dealing outside of the bot. "
             "If you are asked to deal without using the escrow, please report them immediately. Our service is reliable and secure, and there is no reason not to use it."
         ),
